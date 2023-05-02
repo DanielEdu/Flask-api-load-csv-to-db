@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--light-color);
+  }
+  
+  .container {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+  }
+  
+  .btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+  }
+  
+  .btn-warning {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+  }
+  
+  .btn-info {
+    background-color: var(--info-color);
+    border-color: var(--info-color);
+  }
+  
+  .btn-light {
+    background-color: var(--light-color);
+    border-color: var(--light-color);
+  }
+  
+  .btn-dark {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+  }
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de archivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        form {
+            width: 60%;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 20px #999;
+            border-radius: 10px;
+        }
+        label, select, input[type="submit"] {
+            display: block;
+            margin-bottom: 15px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Carga de archivos</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="mi_combobox">Selecciona una tabla:</label>
+        <select name="mi_combobox" id="mi_combobox">
+            <option value="hired_employees">hired_employees</option> 
+            <option value="departments">departments</option>
+            <option value="jobs">jobs</option>
+        </select> 
+
+        <label for="file">Selecciona un archivo:</label>
+        <input type="file" id="file" name="file">
+        
+        <input type="submit" value="Cargar archivo">
+    </form>    
+</body>
+</html>
